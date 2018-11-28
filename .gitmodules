@@ -1,0 +1,7 @@
+[submodule "framework"]
+	path = framework
+	url = git@github.com:nikhil9/framework.git
+	branch = ms5525_uavcan
+[submodule "bootloader"]
+	path = bootloader
+	url = git@github.com:nikhil9/bootloader.git
