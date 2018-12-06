@@ -20,11 +20,12 @@ uavcan_beginfirmwareupdate_server \
 uavcan_allocatee \
 uavcan_restart \
 freemem_check \
-spi_device \
-uavcan_debug
+uavcan_debug \
+driver_ms5525_i2c
 
 MESSAGES_ENABLED = \
-uavcan.protocol.debug.LogMessage
+uavcan.protocol.debug.LogMessage \
+uavcan.equipment.air_data.RawAirData
 
 include framework/include.mk
 
