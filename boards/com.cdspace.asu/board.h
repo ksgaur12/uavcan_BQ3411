@@ -3,6 +3,7 @@
 #include <modules/platform_stm32f302x8/platform_stm32f302x8.h>
 
 #define BOARD_PAL_LINE_LED PAL_LINE(GPIOA,0)
+#define BOARD_PAL_LINE_LED2 PAL_LINE(GPIOA,1)
 #define BOARD_PAL_LINE_CAN_RX PAL_LINE(GPIOA,11)
 #define BOARD_PAL_LINE_CAN_TX PAL_LINE(GPIOA,12)
 
@@ -22,4 +23,5 @@
 }
 
 #define HAL_USE_I2C TRUE
+#define HAL_USE_PAL TRUE
 #define CHPRINTF_USE_FLOAT	TRUE

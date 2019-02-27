@@ -21,7 +21,7 @@ cd ../
 openocd -f openocd.cfg -c "program $elf_d verify reset exit" || exit 1
 
 echo '******************************************************'
-echo '	BOOTLOADER DLASH SUCCESS!				'
+echo '	BOOTLOADER FLASH SUCCESS!				'
 echo '******************************************************'
 
 
