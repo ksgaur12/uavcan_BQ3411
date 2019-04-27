@@ -21,7 +21,7 @@ uavcan_allocatee \
 uavcan_restart \
 freemem_check \
 uavcan_debug \
-driver_lis3mdl_i2c
+driver_bq3411_i2c
 
 MESSAGES_ENABLED = \
 uavcan.protocol.debug.LogMessage \
